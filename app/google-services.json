@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723045584460",
+    "project_id": "patient-details-ccb03",
+    "storage_bucket": "patient-details-ccb03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723045584460:android:faa94aef5fc1a0af686ee9",
+        "android_client_info": {
+          "package_name": "com.example.janitri_innovations_amith_upadhya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723045584460-qup2ddt926mhnlm8up19couo7bhfoujb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9hqaavtcho_ktpmkNr8SdSa1BIbjOMvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723045584460-qup2ddt926mhnlm8up19couo7bhfoujb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

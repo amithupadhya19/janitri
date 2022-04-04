@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".fragments.patientsListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:background="#738"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add patient"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addButtonListFragment"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPatients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addButtonListFragment"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        tools:listitem="@layout/patient_row" />
+
+
+</RelativeLayout>
